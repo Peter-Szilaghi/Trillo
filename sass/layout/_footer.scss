@@ -1,0 +1,10 @@
+.legal {
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 2.4rem;
+  color: var(--color-gray-light-4);
+
+  @include respond(bg-medium) {
+    display: none;
+  }
+}
